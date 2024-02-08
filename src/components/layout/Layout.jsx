@@ -17,7 +17,7 @@ function Layout() {
    <img src={intro} alt="" />
    <img src={Commingsoon} alt="" />
    <img src={moto} alt="" />
-   <img src={we} alt="" />
+   <img className='we' src={we} alt="" />
    <img src={end} alt="" />
 
 

@@ -1,6 +1,6 @@
 // import React from 'react'
-
-import discord from '../img/discord.png';
+import facebook from '../img/facebook-icon.png';
+import instagram from '../img/instagram.png';
 import linkedin from '../img/linkedin.jpg'
 import Logo from '../img/logo.jpg'
 
@@ -19,12 +19,15 @@ function footer() {
             </div>
             <div className="w-full md:w-1/3 mb-6 md:mb-0 flex justify-center">
                 <div className="flex items-center space-x-4 ">
-                    
-                    <a href="https://discord.gg/6cEkDHKN">
-                        <img className='w-8 rounded-[100%]' src={discord} alt="discord" />
+                    <a href="https://www.linkedin.com">
+                        <img className='w-8' src={facebook} alt="LinkedIn Logo" />
                     </a>
-                    <a href="https://www.linkedin.com/in/praneeth-reddy-mekala/">
-                        <img className='w-8 rounded-[100%]' src={linkedin} alt="faceboog" />
+                    <a href="https://www.github.com">
+                        <img className='w-8' src={instagram
+        } alt="instagram" />
+                    </a>
+                    <a href="https://www.facebook.com">
+                        <img className='w-8 rounded-[50%]' src={linkedin} alt="faceboog" />
                     </a>
                     
                 </div>
